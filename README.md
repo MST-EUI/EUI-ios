@@ -5,9 +5,9 @@ ios控件标准化
 # Alert
 EUIAlertView（包括带输入框和不带输入框）。
 ## 使用方式
-<pre>[EUIAlertView showAlertViewWithTitle:@"标题" message:@"内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容" preferredStyle:UIAlertControllerStyleAlert viewController:self cancelItemTitle:@"是" ortherItemTitle:@"否" moreItemTitle:@"再看看" cancelAction:nil ortherAction:nil moreAction:nil];
+[EUIAlertView showAlertViewWithTitle:@"标题" message:@"内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容" preferredStyle:UIAlertControllerStyleAlert viewController:self cancelItemTitle:@"是" ortherItemTitle:@"否" moreItemTitle:@"再看看" cancelAction:nil ortherAction:nil moreAction:nil];
 
-其中 cancelAction、ortherAction、moreAction是点击回调。</pre>
+其中 cancelAction、ortherAction、moreAction是点击回调。
 
 # EmptyDataView
 UIView+EmptyData.h
@@ -41,12 +41,8 @@ MBProgressHUD+Loading.h
 [MBProgressHUD showLoadingToView:self.view];//自动隐藏
 [MBProgressHUD showLoadingToView:view RemainTime:1.5];//指定时间隐藏
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-
 ## Requirements
+iOS 8及以上
 
 ## Installation
 
@@ -61,6 +57,3 @@ pod 'EUI'
 
 李天露, litianlu@mistong.com
 
-## License
-
-EUI is available under the MIT license. See the LICENSE file for more info.
