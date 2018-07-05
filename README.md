@@ -22,7 +22,7 @@ pod 'EUI'
 
 ## Author
 
-kkYFL, 1490719714@qq.com
+李天露, litianlu@mistong.com
 
 ## License
 

@@ -500,7 +500,7 @@
 			attributes = {
 				CLASSPREFIX = EUI;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = kkYFL;
+				ORGANIZATIONNAME = "李天露";
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = 5GX23WY4Y7;
