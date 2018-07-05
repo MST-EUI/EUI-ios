@@ -1,0 +1,40 @@
+
+platform :ios, '8.0'
+
+target 'EUI_Example' do
+  pod 'EUI', :path => '../'
+
+pod 'CYLTabBarController'
+
+# 全局滑动
+pod 'FDFullscreenPopGesture'
+
+# 数据存储
+pod 'GVUserDefaults'
+
+# 蒙版
+pod 'MBProgressHUD'
+
+# 网络监控
+pod 'Reachability'
+
+# 下拉刷新
+pod 'MJRefresh'
+
+# 图片加载
+pod 'SDWebImage'
+
+# 用于适配
+pod 'Masonry'
+
+# 键盘管理
+pod 'IQKeyboardManager'
+
+# YYKit
+#pod 'YYKit'
+pod 'YYImage'
+pod 'YYText'
+pod 'YYAsyncLayer'
+pod 'YYCategories'
+
+end

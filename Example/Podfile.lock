@@ -1,0 +1,102 @@
+PODS:
+  - CYLTabBarController (1.17.8)
+  - EUI (0.1.0):
+    - EUI/Alert (= 0.1.0)
+    - EUI/Button (= 0.1.0)
+    - EUI/Category (= 0.1.0)
+    - EUI/EmptyData (= 0.1.0)
+    - EUI/Loading (= 0.1.0)
+    - EUI/Macros (= 0.1.0)
+    - EUI/Toast (= 0.1.0)
+    - EUI/Utils (= 0.1.0)
+    - Masonry
+  - EUI/Alert (0.1.0):
+    - Masonry
+  - EUI/Button (0.1.0):
+    - Masonry
+  - EUI/Category (0.1.0):
+    - Masonry
+  - EUI/EmptyData (0.1.0):
+    - Masonry
+  - EUI/Loading (0.1.0):
+    - Masonry
+  - EUI/Macros (0.1.0):
+    - Masonry
+  - EUI/Toast (0.1.0):
+    - Masonry
+  - EUI/Utils (0.1.0):
+    - Masonry
+  - FDFullscreenPopGesture (1.1)
+  - GVUserDefaults (1.0.2)
+  - IQKeyboardManager (6.0.3)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15.3)
+  - Reachability (3.2)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - YYAsyncLayer (1.0)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - CYLTabBarController
+  - EUI (from `../`)
+  - FDFullscreenPopGesture
+  - GVUserDefaults
+  - IQKeyboardManager
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - Reachability
+  - SDWebImage
+  - YYAsyncLayer
+  - YYCategories
+  - YYImage
+  - YYText
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CYLTabBarController
+    - FDFullscreenPopGesture
+    - GVUserDefaults
+    - IQKeyboardManager
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - YYAsyncLayer
+    - YYCategories
+    - YYImage
+    - YYText
+
+EXTERNAL SOURCES:
+  EUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CYLTabBarController: c1377ee2d0ccb6c7ec642806dc04f883f7c2851e
+  EUI: cb60a1cc54c0d6913219c50c708326612c88d1ca
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  GVUserDefaults: 52d48cf8ba578b40a1a76312b196dfc9134ba36a
+  IQKeyboardManager: c390e612f4b98c8fd748016470138537dc163ead
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  YYAsyncLayer: df6b01ebc695c5f6b4c15dd5c23fa3e081eb25c0
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: ef90165da372f0d34602f0480857cef5a7bb24d8
+
+COCOAPODS: 1.5.2
