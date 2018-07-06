@@ -7,8 +7,6 @@ EUIAlertView（包括带输入框和不带输入框）。
 ## 使用方式
 [EUIAlertView showAlertViewWithTitle:@"标题" message:@"内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容" preferredStyle:UIAlertControllerStyleAlert viewController:self cancelItemTitle:@"是" ortherItemTitle:@"否" moreItemTitle:@"再看看" cancelAction:nil ortherAction:nil moreAction:nil];
 其中 cancelAction、ortherAction、moreAction是点击回调。
-
-演示截图如下：
 ![image](https://raw.githubusercontent.com/MST-EUI/EUI-ios/master/Example/EUI/Screenshots/alert.png)
 
 # EmptyDataView
@@ -16,8 +14,6 @@ UIView+EmptyData.h
 ## 使用方式
 [self.view configEmptyViewHasData:NO image:nil labelText:nil];//显示空数据页面
 [self.view configEmptyViewHasData:YES image:nil labelText:nil]; //隐藏空数据页面
-
-演示截图如下：
 ![image](https://raw.githubusercontent.com/MST-EUI/EUI-ios/master/Example/EUI/Screenshots/emptydata.png)
 
 # Toast
@@ -25,8 +21,6 @@ MBProgressHUD+Toast.h
 ## 使用方式
 [MBProgressHUD toastMessage:message ToView:self.view];//自动隐藏
 [MBProgressHUD toastMessage:message ToView:view RemainTime:1.5]; //自定义时间隐藏
-
-演示截图如下：
 ![image](https://raw.githubusercontent.com/MST-EUI/EUI-ios/master/Example/EUI/Screenshots/toast.png)
 
 
@@ -43,8 +37,6 @@ norBtn.gradientColors = @[
 [norBtn setTitle:@"普通状态" forState:UIControlStateNormal];
 [norBtn setTitle:@"禁用状态" forState:UIControlStateDisabled];
 [self.view addSubview:norBtn];
-
-演示截图如下：
 ![image](https://raw.githubusercontent.com/MST-EUI/EUI-ios/master/Example/EUI/Screenshots/button.png)
 
 # Loading
@@ -52,8 +44,6 @@ MBProgressHUD+Loading.h
 ## 使用方式
 [MBProgressHUD showLoadingToView:self.view];//自动隐藏
 [MBProgressHUD showLoadingToView:view RemainTime:1.5];//指定时间隐藏
-
-演示截图如下：
 ![image](https://raw.githubusercontent.com/MST-EUI/EUI-ios/master/Example/EUI/Screenshots/loading.png)
 
 ## Requirements
