@@ -5,51 +5,51 @@ ios控件标准化
 # Alert
 EUIAlertView（包括带输入框和不带输入框）。
 ## 使用方式
-[EUIAlertView showAlertViewWithTitle:@"标题" message:@"内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容" preferredStyle:UIAlertControllerStyleAlert viewController:self cancelItemTitle:@"是" ortherItemTitle:@"否" moreItemTitle:@"再看看" cancelAction:nil ortherAction:nil moreAction:nil];＜/br＞
-其中 cancelAction、ortherAction、moreAction是点击回调。＜/br＞
-演示截图如下：＜/br＞
-![image](https://github.com/litianlu@mistong.com/EUI-ios/Example/EUI/Images.xcassets/ScreenShots/alert.imageset/alert@2x.png)
+[EUIAlertView showAlertViewWithTitle:@"标题" message:@"内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容" preferredStyle:UIAlertControllerStyleAlert viewController:self cancelItemTitle:@"是" ortherItemTitle:@"否" moreItemTitle:@"再看看" cancelAction:nil ortherAction:nil moreAction:nil];
+其中 cancelAction、ortherAction、moreAction是点击回调。
+演示截图如下：
+![image](https://github.com/litianlu@mistong.com/EUI-ios/Example/EUI/Screenshots/alert@2x.png)
 
 # EmptyDataView
 UIView+EmptyData.h
 ## 使用方式
-[self.view configEmptyViewHasData:NO image:nil labelText:nil];//显示空数据页面＜/br＞
-[self.view configEmptyViewHasData:YES image:nil labelText:nil]; //隐藏空数据页面＜/br＞
-演示截图如下：＜/br＞
-![image](https://github.com/litianlu@mistong.com/EUI-ios/Example/EUI/Images.xcassets/ScreenShots/emptydata.imageset/emptydata@2x.png)
+[self.view configEmptyViewHasData:NO image:nil labelText:nil];//显示空数据页面
+[self.view configEmptyViewHasData:YES image:nil labelText:nil]; //隐藏空数据页面
+演示截图如下：
+![image](https://github.com/litianlu@mistong.com/EUI-ios/Example/EUI/Screenshots/emptydata@2x.png)
 
 # Toast
 MBProgressHUD+Toast.h
 ## 使用方式
-[MBProgressHUD toastMessage:message ToView:self.view];//自动隐藏＜/br＞
-[MBProgressHUD toastMessage:message ToView:view RemainTime:1.5]; //自定义时间隐藏＜/br＞
-演示截图如下：＜/br＞
-![image](https://github.com/litianlu@mistong.com/EUI-ios/Example/EUI/Images.xcassets/ScreenShots/toast.imageset/toast@2x.png)
+[MBProgressHUD toastMessage:message ToView:self.view];//自动隐藏
+[MBProgressHUD toastMessage:message ToView:view RemainTime:1.5]; //自定义时间隐藏
+演示截图如下：
+![image](https://github.com/litianlu@mistong.com/EUI-ios/Example/EUI/Screenshots/toast@2x.png)
 
 
 # Button
 EUIGradientButton.h
 ## 使用方式
-EUIGradientButton* norBtn = [EUIGradientButton buttonWithType:UIButtonTypeCustom];＜/br＞
-norBtn.frame = CGRectMake(12, 200, self.view.width - 12*2, 45);＜/br＞
+EUIGradientButton* norBtn = [EUIGradientButton buttonWithType:UIButtonTypeCustom];
+norBtn.frame = CGRectMake(12, 200, self.view.width - 12*2, 45);
 norBtn.gradientColors = @[
 (id)[HEXACOLOR(0x02AAFF, 1.0) CGColor],
 (id)[HEXACOLOR(0x0387FF , 1.0) CGColor]
-];＜/br＞
-[norBtn addTarget:self action:@selector(changeState:) forControlEvents:UIControlEventTouchUpInside];＜/br＞
-[norBtn setTitle:@"普通状态" forState:UIControlStateNormal];＜/br＞
-[norBtn setTitle:@"禁用状态" forState:UIControlStateDisabled];＜/br＞
-[self.view addSubview:norBtn];＜/br＞
-演示截图如下：＜/br＞
-![image](https://github.com/litianlu@mistong.com/EUI-ios/Example/EUI/Images.xcassets/ScreenShots/button.imageset/button@2x.png)
+];
+[norBtn addTarget:self action:@selector(changeState:) forControlEvents:UIControlEventTouchUpInside];
+[norBtn setTitle:@"普通状态" forState:UIControlStateNormal];
+[norBtn setTitle:@"禁用状态" forState:UIControlStateDisabled];
+[self.view addSubview:norBtn];
+演示截图如下：
+![image](https://github.com/litianlu@mistong.com/EUI-ios/Example/EUI/Screenshots/button@2x.png)
 
 # Loading
 MBProgressHUD+Loading.h
 ## 使用方式
-[MBProgressHUD showLoadingToView:self.view];//自动隐藏＜/br＞
-[MBProgressHUD showLoadingToView:view RemainTime:1.5];//指定时间隐藏＜/br＞
-演示截图如下：＜/br＞
-![image](https://github.com/litianlu@mistong.com/EUI-ios/Example/EUI/Images.xcassets/ScreenShots/loading.imageset/loading@2x.png)
+[MBProgressHUD showLoadingToView:self.view];//自动隐藏
+[MBProgressHUD showLoadingToView:view RemainTime:1.5];//指定时间隐藏
+演示截图如下：
+![image](https://github.com/litianlu@mistong.com/EUI-ios/Example/EUI/Screenshots/loading@2x.png)
 
 ## Requirements
 iOS 8及以上
