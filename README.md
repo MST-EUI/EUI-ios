@@ -13,7 +13,7 @@ EUIAlertView（包括带输入框和不带输入框）。
 UIView+EmptyData.h
 ## 使用方式
 [self.view configEmptyViewHasData:NO image:nil labelText:nil];//显示空数据页面  
-[self.view configEmptyViewHasData:YES image:nil labelText:nil]; //隐藏空数据页面
+[self.view configEmptyViewHasData:YES image:nil labelText:nil]; //隐藏空数据页面  
 ![image](https://raw.githubusercontent.com/MST-EUI/EUI-ios/master/Example/EUI/Screenshots/emptydata.png)
 
 # Toast
