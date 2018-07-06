@@ -8,7 +8,7 @@ EUIAlertView（包括带输入框和不带输入框）。
 [EUIAlertView showAlertViewWithTitle:@"标题" message:@"内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容" preferredStyle:UIAlertControllerStyleAlert viewController:self cancelItemTitle:@"是" ortherItemTitle:@"否" moreItemTitle:@"再看看" cancelAction:nil ortherAction:nil moreAction:nil];
 其中 cancelAction、ortherAction、moreAction是点击回调。
 演示截图如下：
-![image](https://github.com/litianlu@mistong.com/EUI-ios/Example/EUI/Screenshots/alert@2x.png)
+![image](https://raw.githubusercontent.com/MST-EUI/EUI-ios/master/Example/EUI/Screenshots/alert.png)
 
 # EmptyDataView
 UIView+EmptyData.h
@@ -16,7 +16,7 @@ UIView+EmptyData.h
 [self.view configEmptyViewHasData:NO image:nil labelText:nil];//显示空数据页面
 [self.view configEmptyViewHasData:YES image:nil labelText:nil]; //隐藏空数据页面
 演示截图如下：
-![image](https://github.com/litianlu@mistong.com/EUI-ios/Example/EUI/Screenshots/emptydata@2x.png)
+![image](https://raw.githubusercontent.com/MST-EUI/EUI-ios/master/Example/EUI/Screenshots/emptydata.png)
 
 # Toast
 MBProgressHUD+Toast.h
@@ -24,7 +24,7 @@ MBProgressHUD+Toast.h
 [MBProgressHUD toastMessage:message ToView:self.view];//自动隐藏
 [MBProgressHUD toastMessage:message ToView:view RemainTime:1.5]; //自定义时间隐藏
 演示截图如下：
-![image](https://github.com/litianlu@mistong.com/EUI-ios/Example/EUI/Screenshots/toast@2x.png)
+![image](https://raw.githubusercontent.com/MST-EUI/EUI-ios/master/Example/EUI/Screenshots/toast@2x.png)
 
 
 # Button
@@ -41,7 +41,7 @@ norBtn.gradientColors = @[
 [norBtn setTitle:@"禁用状态" forState:UIControlStateDisabled];
 [self.view addSubview:norBtn];
 演示截图如下：
-![image](https://github.com/litianlu@mistong.com/EUI-ios/Example/EUI/Screenshots/button@2x.png)
+![image](https://raw.githubusercontent.com/MST-EUI/EUI-ios/master/Example/EUI/Screenshots/button@2x.png)
 
 # Loading
 MBProgressHUD+Loading.h
@@ -49,7 +49,7 @@ MBProgressHUD+Loading.h
 [MBProgressHUD showLoadingToView:self.view];//自动隐藏
 [MBProgressHUD showLoadingToView:view RemainTime:1.5];//指定时间隐藏
 演示截图如下：
-![image](https://github.com/litianlu@mistong.com/EUI-ios/Example/EUI/Screenshots/loading@2x.png)
+![image](https://raw.githubusercontent.com/MST-EUI/EUI-ios/master/Example/EUI/Screenshots/loading@2x.png)
 
 ## Requirements
 iOS 8及以上
