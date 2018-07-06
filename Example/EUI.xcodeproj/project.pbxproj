@@ -19,6 +19,11 @@
 		3A21629020EBA22A0016A2EB /* EUIToastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A21628F20EBA22A0016A2EB /* EUIToastViewController.m */; };
 		3A21629320EC5C980016A2EB /* EUIButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A21629220EC5C980016A2EB /* EUIButtonViewController.m */; };
 		3A2162A120EC7ABC0016A2EB /* EUILoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2162A020EC7ABC0016A2EB /* EUILoadingViewController.m */; };
+		3A2162D520EF51F10016A2EB /* loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2162D020EF51F10016A2EB /* loading@2x.png */; };
+		3A2162D620EF51F10016A2EB /* emptydata copy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2162D120EF51F10016A2EB /* emptydata copy@2x.png */; };
+		3A2162D720EF51F10016A2EB /* alert@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2162D220EF51F10016A2EB /* alert@2x.png */; };
+		3A2162D820EF51F10016A2EB /* toast@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2162D320EF51F10016A2EB /* toast@2x.png */; };
+		3A2162D920EF51F10016A2EB /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2162D420EF51F10016A2EB /* button@2x.png */; };
 		3A3E47EB20EB1C7F0012DCCD /* LMJElementsFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E47C020EB1C7F0012DCCD /* LMJElementsFlowLayout.m */; };
 		3A3E47EC20EB1C7F0012DCCD /* LMJNormalRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E47C220EB1C7F0012DCCD /* LMJNormalRefreshHeader.m */; };
 		3A3E47ED20EB1C7F0012DCCD /* LMJHorizontalFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3E47C320EB1C7F0012DCCD /* LMJHorizontalFlowLayout.m */; };
@@ -94,6 +99,11 @@
 		3A21629220EC5C980016A2EB /* EUIButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUIButtonViewController.m; sourceTree = "<group>"; };
 		3A21629F20EC7ABC0016A2EB /* EUILoadingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EUILoadingViewController.h; sourceTree = "<group>"; };
 		3A2162A020EC7ABC0016A2EB /* EUILoadingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUILoadingViewController.m; sourceTree = "<group>"; };
+		3A2162D020EF51F10016A2EB /* loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading@2x.png"; sourceTree = "<group>"; };
+		3A2162D120EF51F10016A2EB /* emptydata copy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emptydata copy@2x.png"; sourceTree = "<group>"; };
+		3A2162D220EF51F10016A2EB /* alert@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert@2x.png"; sourceTree = "<group>"; };
+		3A2162D320EF51F10016A2EB /* toast@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast@2x.png"; sourceTree = "<group>"; };
+		3A2162D420EF51F10016A2EB /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button@2x.png"; sourceTree = "<group>"; };
 		3A3E47BF20EB1C7F0012DCCD /* LMJAutoRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJAutoRefreshFooter.h; sourceTree = "<group>"; };
 		3A3E47C020EB1C7F0012DCCD /* LMJElementsFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJElementsFlowLayout.m; sourceTree = "<group>"; };
 		3A3E47C120EB1C7F0012DCCD /* LMJNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJNavigationBar.h; sourceTree = "<group>"; };
@@ -240,6 +250,19 @@
 			);
 			path = SecondTab;
 			sourceTree = "<group>";
+		};
+		3A2162CF20EF51F10016A2EB /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				3A2162D020EF51F10016A2EB /* loading@2x.png */,
+				3A2162D120EF51F10016A2EB /* emptydata copy@2x.png */,
+				3A2162D220EF51F10016A2EB /* alert@2x.png */,
+				3A2162D320EF51F10016A2EB /* toast@2x.png */,
+				3A2162D420EF51F10016A2EB /* button@2x.png */,
+			);
+			name = Screenshots;
+			path = EUI/Screenshots;
+			sourceTree = SOURCE_ROOT;
 		};
 		3A3E47BC20EB19160012DCCD /* Main */ = {
 			isa = PBXGroup;
@@ -397,6 +420,7 @@
 				3A21624520EB57550016A2EB /* SecondTab */,
 				3A21624420EB57550016A2EB /* ThirdTab */,
 				3A3E480020EB25590012DCCD /* Category */,
+				3A2162CF20EF51F10016A2EB /* Screenshots */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -509,7 +533,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				3A2162D620EF51F10016A2EB /* emptydata copy@2x.png in Resources */,
+				3A2162D520EF51F10016A2EB /* loading@2x.png in Resources */,
+				3A2162D720EF51F10016A2EB /* alert@2x.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				3A2162D820EF51F10016A2EB /* toast@2x.png in Resources */,
+				3A2162D920EF51F10016A2EB /* button@2x.png in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
