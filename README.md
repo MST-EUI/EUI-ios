@@ -62,3 +62,17 @@ pod 'EUI'
 
 李天露, litianlu@mistong.com
 
+## 宣传站开发
+
+### 安装依赖
+
+```
+npm install
+```
+
+### 启动项目
+```
+npm start
+```
+
+> 修改 `/docs` 下的文件即可，[使用手册](https://docsify.js.org/#/zh-cn/)

@@ -1,0 +1,25 @@
+{
+  "name": "eui-ios",
+  "version": "1.0.0",
+  "description": "ios控件标准化",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "docsify serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MST-EUI/eui-ios.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MST-EUI/eui-ios/issues"
+  },
+  "homepage": "https://github.com/MST-EUI/eui-ios#readme",
+  "devDependencies": {
+    "docsify-cli": "^4.2.1"
+  }
+}
