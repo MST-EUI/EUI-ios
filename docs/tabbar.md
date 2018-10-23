@@ -1,7 +1,20 @@
-# Tab 组件
+# Tabbar
+
+底部tabbar点击效果
+
+## 效果展示
+
+<center>
+<img src="./tabbar/eui_tab.gif" width="300"/>
+tab点击动效
+</center> 
+
+## 使用方法
 
 ```
-npm i @mistong/eui-tab
+无需代码调用，只需要项目中包含了分类UITabBarController+EWTTabMotion.h即可
+
 ```
 
-> Tab 切换组件
+
+
