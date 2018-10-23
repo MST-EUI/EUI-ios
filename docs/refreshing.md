@@ -4,20 +4,17 @@
 
 ## 效果展示
 
-<center>
 <img src="./refreshing/pullingdown.gif" width="300"/>
+
 下拉刷新
-</center> 
 
-<center>
 <img src="./refreshing/pullingup.gif" width="300"/>
-上拉加载
-</center> 
 
-<center>
+上拉加载
+
 <img src="./refreshing/pullingforce.gif" width="300" />
-长拉进入第二vc
-</center>                         
+
+长拉进入第二vc                   
 
 
 ## 使用方法

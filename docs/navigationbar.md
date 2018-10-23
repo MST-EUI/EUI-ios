@@ -3,15 +3,15 @@
 
 ## 效果展示
 
-<center>
-<img src="./navigationbar/lefttitle1.png" width="300"/>
-一级标题
-</center> 
 
-<center>
+<img src="./navigationbar/lefttitle1.png" width="300"/>
+
+一级标题
+
+
 <img src="./navigationbar/lefttitle2.png" width="300"/>
-二级标题
-</center>                       
+
+二级标题                    
 
 
 ## 使用方法

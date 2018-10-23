@@ -4,30 +4,30 @@
 
 ## 效果展示
 
-<center>
+
 <img src="./errorpage/blank.png" width="300"/>
+
 空白页
-</center> 
 
-<center>
+
 <img src="./errorpage/blankwithbutton.png" width="300"/>
+
 空白页+按钮
-</center> 
 
-<center>
 <img src="./errorpage/error.png" width="300" />
-错误页
-</center>                         
 
-<center>
+错误页                     
+
+
 <img src="./errorpage/errorwithbutton.png" width="300" />
-错误页+按钮
-</center> 
 
-<center>
+错误页+按钮
+
+
 <img src="./errorpage/errorcustomer.png" width="300" />
+
 自定义
-</center> 
+
 
 
 ## 使用方法

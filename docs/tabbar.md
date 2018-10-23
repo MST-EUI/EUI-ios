@@ -4,10 +4,9 @@
 
 ## 效果展示
 
-<center>
 <img src="./tabbar/eui_tab.gif" width="300"/>
+
 tab点击动效
-</center> 
 
 ## 使用方法
 
