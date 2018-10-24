@@ -1,23 +1,10 @@
 # 快速开始
 
-```
-npm i @mistong/ios
+## Requirements
+    iOS 8及以上
 
-render() {
-  return (
-    <div>hello world</div>
-  );
-}
-```
+## Installation
+EUI is available through CocoaPods. To install it, simply add the following line to your Podfile:
 
-> An awesome project.
+    pod 'EUI'
 
-# Usage
-
-## 安装
-
-```
-npm i @mistong/ios
-```
-
-## Test
