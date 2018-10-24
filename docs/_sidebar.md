@@ -1,4 +1,6 @@
 * [快速开始](/)
+* [如何使用](/如何使用)
+* [开发规范](/开发规范)
 * [Button](/button)
 * [TabBar](/tabbar)
 * [NavigationBar](/navigationbar)
